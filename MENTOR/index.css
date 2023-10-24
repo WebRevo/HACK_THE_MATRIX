@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/MENTOR/1.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    position: absolute;
+    top: 23vh;
+    left: 14vw;
+    color: rgb(0, 0, 0);
+    font-size: 6.8rem;
+}
+header{
+    background: #6c6767;
+}
+nav{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 10vw;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.logo{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 25px;
+    color: white;
+    left: 10vw;
+}
+ul li a{
+    font-size:1.5rem;
+}

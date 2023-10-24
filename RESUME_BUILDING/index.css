@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('/RESUME_BUILDING/download.jpeg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background: #6c6767;
+}
+nav{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 10vw;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.logo{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    left: 10vw;
+}
+ul li a{
+    font-size:1.5rem;
+}
+.title{
+    position: absolute;
+    font-size: 3.5rem;
+    top: 10vh;
+    left: 22vw;
+    color: rgb(0, 0, 0);
+}
+.l{
+    position: absolute;
+    left: 10vw;
+    top: 25vh;
+}
+.domains ul li{
+    padding: 40px;
+    display: inline-block;
+}
+.domains ul li button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.domains ul li button:hover{
+    box-shadow: 0 0 20px navy;
+    background: lightblue;
+}
+.domains{
+    position: absolute;
+    top: 20vh;
+    left:18vw;
+}
+
+.domains1 ul li{
+    padding: 40px;
+    display: inline-block;
+}
+.domains1 ul li button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.domains1 ul li button:hover{
+    box-shadow: 0 0 20px navy;
+    background: lightblue;
+}
+.domains1{
+    position: absolute;
+    top: 38vh;
+    left:18vw;
+}
+
+.domains2 ul li{
+    padding: 40px;
+    display: inline-block;
+}
+.domains2 ul li button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.domains2 ul li button:hover{
+    box-shadow: 0 0 20px navy;
+    background: lightblue;
+}
+.domains2{
+    position: absolute;
+    top: 56vh;
+    left:18vw;
+}
+
+.domains3 ul li{
+    padding: 40px;
+    display: inline-block;
+}
+.domains3 ul li button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.domains3 ul li button:hover{
+    box-shadow: 0 0 20px navy;
+    background: lightblue;
+}
+.domains3{
+    position: absolute;
+    top: 74vh;
+    left:18vw;
+}
+
+
+
+
+
+
+
+
+

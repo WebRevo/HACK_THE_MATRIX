@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background: #6c6767;
+}
+nav{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 10vw;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.logo{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 25px;
+    color: white;
+    left: 10vw;
+}
+ul li a{
+    font-size:1.5rem;
+}
+.title{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 12vh;
+    left: 42vw;
+    color: white;
+}
+.l{
+    position: absolute;
+    left: 10vw;
+    top: 25vh;
+}
+
+button{
+    padding: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+button:hover{
+    box-shadow: 0 0 20px navy;
+    background: lightblue;
+}
+.domains{
+    position: absolute;
+    top: 35vh;
+    left:18vw;
+}
+.domains1{
+    position: absolute;
+    top: 55vh;
+    left:16vw;
+}
+.domains2{
+    position: absolute;
+    top: 75vh;
+    left:18vw;
+}
+
+
+

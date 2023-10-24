@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/MAIN PAGE/12980762_5096160.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: white;
+    font-weight: 900;
+    background: linear-gradient(to right, rgb(255, 255, 255)45%,rgba(255,255,255,1)50%,rgba(0,0,0,1)55%, rgba(0,0,0,1)100%);
+    -webkit-background-clip: text;
+    color: rgba(255,255,255,0);
+    background-size: 200%;
+    animation: shine 3s infinite;
+}
+@keyframes shine{
+    0%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: -100%;
+    }
+}
+.title{
+    position: absolute;
+    top: 23vh;
+    left: 14vw;
+    color: rgb(0, 0, 0);
+    font-size: 6.8rem;
+}
+header{
+    background: #6c6767;
+}
+nav{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 10vw;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.logo{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 25px;
+    color: white;
+    left: 10vw;
+}
+ul li a{
+    font-size:1.5rem;
+}
+
+.quo{
+    position: absolute;
+    top: 45vh;
+    left: 18vw;
+    color: white;
+    font-size: 2.3rem;
+}
+.front1{
+    position: absolute;
+    top: 51vh;
+    left: 23vw;
+    color: white;
+    font-size: 2rem;
+}
+.but{
+    position: absolute;
+    top: 68vh;
+    left: 44vw;
+    padding: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+.but:hover{
+    box-shadow: 0 0 20px #d2733c;
+}

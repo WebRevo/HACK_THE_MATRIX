@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/SIGN_IN_AND SIGN_UP/2.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background: #6c6767;
+}
+nav{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 10vw;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.logo{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 25px;
+    color: white;
+    left: 10vw;
+}
+ul li a{
+    font-size:1.5rem;
+}
+
+.hero{
+    padding: 110px;
+    padding-bottom: 170px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.27) 100%);
+backdrop-filter: blur(10px);
+position: absolute;
+top: 33vh;
+left: 37.5vw;
+box-shadow: 0 0 20px whitesmoke;
+border-radius: 10px;
+}
+.name{
+    position: absolute;
+    top:2vh;
+    left: 9.5vw;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.us{
+    position: absolute;
+    top: 13vh;
+    left:4.5vw;
+}
+.ps{
+    position: absolute;
+    top: 25vh;
+    left: 4.5vw;
+}
+
+.lo{
+    position: absolute;
+    top: 35vh;
+    left: 9.3vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.contents input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.pd{
+    color: transparent;
+}
+
+.pd1{
+    position: absolute;
+    bottom: 18.5vh;
+    left: 43vw;
+    font-size: 1.1rem;
+    color: white;
+}
+.pd1 a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.lo:hover{
+    box-shadow: 0 0 20px whitesmoke;
+}
